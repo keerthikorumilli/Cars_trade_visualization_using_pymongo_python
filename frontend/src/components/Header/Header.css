@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    height: 65px;
+    width:100vw;
+}
+.first{
+    padding: 0px 20px;
+    background-color: rgb(66, 123, 180);
+    width: 60vw;
+}
+.second{
+    background-color: rgb(36, 74, 132);
+    width: 20vw;
+}
+.third{
+    background-color: rgb(32, 41, 92);
+    width: 20vw;
+}
+.h1 {
+    color: aliceblue;
+    text-align: left;
+    font-size: 24px; 
+  }
+
+  @media (max-width: 767px) {
+    .h1 {
+      font-size: 18px; 
+    }
+  }
+  

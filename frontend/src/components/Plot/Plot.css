@@ -1,0 +1,141 @@
+
+.layout-container {
+  text-align: center;
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.left-half {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1px;
+}
+
+.bar {
+  justify-content: center;
+  display: flex;
+  padding-right: 50px;
+}
+
+.box {
+  box-sizing: border-box;
+  margin: 15px; 
+  background-color: #b85b66;
+  border: 6px solid #d9d4d4;
+  border-radius: 5px;
+  flex-direction: column;
+  height: 212px;
+}
+
+.right-half {
+  flex: 1;
+  padding-right: 100px; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30vw;
+  height: 542px;
+  margin: -15px 20px;
+}
+
+.name {
+  display: flex;
+}
+
+
+.name .about {
+  padding-left: 20px;
+  font-size: 20px;
+  margin-top: 1px;
+}
+
+.para {
+  padding-bottom: 30px;
+}
+
+
+.textarea {
+  width: 30vw;
+  height: 80%;
+  border-radius: 20px;
+  resize: none;
+  background-color: rgba(133, 135, 168, 0.998);
+  color: aliceblue;
+  text-align: left;
+  font-weight: 700;
+  padding: 25px;
+  margin: 28px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.para {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+
+  .Slides {
+    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  
+  .box {
+    width: 282px;
+    height: 456px;
+  }
+  
+  .main {
+    flex-direction: column;
+  }
+  .layout-container {
+    flex-direction: column;
+  }
+  .left-half {
+    width: 100vw;
+  }
+  .right-half {
+    width: 100vw;
+    margin: 0;
+    padding-right: 0;
+  }
+  .textarea {
+    width: 60vw;
+  }
+  .box {
+    width: 80vw;
+    height: 250px;
+    text-align: center;
+  }
+  .chart {
+    text-align: center;
+  }
+  
+  
+  .custom-tooltip {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 768px) {
+  .textarea {
+    width: 90%; 
+    margin: 10px; 
+  }
+}
+
+

@@ -1,0 +1,42 @@
+.git-hub-container {
+  height: 40px;
+  background-color: #324359;
+  padding: 2px 20px;
+  text-align: end;
+}
+
+.git-hub-container img {
+  width: 30px;
+  height:32px;
+}
+
+.copy-right-para {
+  background-color: #19212c;
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 0;
+}
+
+.footer {
+  background-color: #4B6488;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+}
+
+.layout-container {
+  display: flex;
+  min-height: 77.7vh;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
